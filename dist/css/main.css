@@ -1,0 +1,62 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #018DED;
+  color: #fff;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.clock {
+  position: relative;
+  top: 100px;
+  left: 90px;
+  width: 160px;
+  height: 160px;
+  border: 10px solid white;
+  border-radius: 50%;
+  padding: 10px; }
+
+.main-clocks {
+  z-index: 2; }
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px); }
+
+.hand {
+  width: 50%;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  transform: rotate(90deg); }
+  .hand.second-hand {
+    background-color: orange; }
+  .hand.min-hand {
+    border-radius: 10px;
+    transform-origin: 101%; }
+  .hand.hour-hand {
+    width: 45%;
+    border-radius: 10px;
+    transform-origin: 105% 9%;
+    background-color: #015187; }

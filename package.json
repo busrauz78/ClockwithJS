@@ -1,0 +1,15 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "Clock with pure JS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "test": "node specs/start.js"
+  },
+  "author": "Busra Uz",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.10.0"
+  }
+}
