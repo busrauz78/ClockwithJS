@@ -1,4 +1,4 @@
-js/* linguist-vendored
-js/init.js linguist-vendored=false
-css/* linguist-vendored
-css/style.css linguist-vendored=false
+dist/js/* linguist-vendored
+dist/js/init.js linguist-vendored=false
+dist/css/* linguist-vendored
+dist/css/main.css linguist-vendored=false
